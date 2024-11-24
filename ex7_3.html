@@ -1,0 +1,9 @@
+<script>
+    const palavra = prompt("Palavra á ser invertida:")
+    const tam = palavra.length
+    let invertida = palavra.charAt(tam-1).toUpperCase()
+    for(let i=tam-2; i>=0;i--){
+        invertida+=palavra.charAt(i).toLowerCase()
+    }
+    alert(invertida)
+</script>
