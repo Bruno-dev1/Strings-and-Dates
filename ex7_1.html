@@ -1,0 +1,11 @@
+<script>
+    const anumcio = prompt("Anúncio")
+    let palavra = 0
+
+    for (let i = 0; i < anumcio.length; i++) {
+        if (anumcio.charAt(i) == " ") {
+            palavra++
+        }
+    }
+    alert(`O anúncio tem ${palavra+1} palavras`)
+</script>
