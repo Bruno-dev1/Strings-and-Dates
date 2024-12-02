@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")()
-const palavra = prompt("Palavra:")
-const encurtada = palavra.replace(" ","")
-console.log(encurtada)
+const data = new Date()
+data.setDate(data.getDate() + 90)
+
+console.log(data)
