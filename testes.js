@@ -1,2 +1,4 @@
-const dara = new Date()
-console.log(dara)
+const prompt = require("prompt-sync")()
+const palavra = prompt("Palavra:")
+const encurtada = palavra.replace(" ","")
+console.log(encurtada)
