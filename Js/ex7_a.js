@@ -35,9 +35,8 @@ frm.btDescriptografar.addEventListener("click", () => {
     
         for (let i = 0; i < impares.length; i++) {
             descriptografado += impares[i] 
-            if (i < pares.length) {
-                descriptografado += pares[i] 
-            }
+            descriptografado += pares[i] 
+            
         }
     
         resp.innerText = descriptografado
